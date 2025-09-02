@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup-Page</title>
+  <link rel="stylesheet" crossorigin href="/graviflex.com/assets/style-CRAFdtow.css">
+</head>
+
+<body 
+  class="font-[Poppins] bg-white bg-no-repeat min-h-screen bg-[length:600px_600px] overflow-hidden
+         bg-right md:bg-[length:800px_800px] text-red md:text-black-900"
+  style="background-image: url('./picture/ok-removebg-preview\ 1.png') ">
+  
+  <div class="container mx-auto px-4 py-6">
+    
+    <div class="logo w-40 md:w-[250px] mb-6">
+      <a href="./index.html">
+        <img src="/graviflex.com/assets/nav-C9Un9_V8.png" alt="Graviflex Logo">
+      </a>
+    </div>
+
+    
+    <div class="text-center md:text-left md:ml-20 mb-10">
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-thin">WELCOME BACK</h1>
+      <p class="text-lg sm:text-xl md:text-2xl mt-4 leading-relaxed tracking-wide text-gray-700">
+        Welcome back! Please enter your details.
+      </p>
+    </div>
+
+  
+    <div class="form flex justify-center md:justify-start">
+      <form class="flex flex-col gap-4 w-full max-w-md md:ml-20" action="submit_form.php" method="post">
+      
+        <label class="text-lg font-bold" for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your Email" required
+          class="border border-black rounded px-4 py-3 text-lg w-full">
+
+       
+        <label class="text-lg font-bold" for="password">Password</label>
+        <input type="password" id="password" placeholder="********" required
+          class="border border-black rounded px-4 py-3 text-lg w-full">
+
+    
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center w-full gap-2">
+          <label class="flex items-center text-base sm:text-lg">
+            <input type="checkbox" class="mr-2"> Remember me
+          </label>
+          <a href="#" class="text-blue-500 hover:underline text-base sm:text-lg">Forgotten password?</a>
+        </div>
+
+        
+        <button class="border px-6 py-3 w-full bg-red text-white rounded text-lg" type="submit">
+          Sign In
+        </button>
+
+        
+        <button
+          class="border px-6 py-3 w-full bg-transparent text-black rounded flex items-center justify-center gap-4 text-lg sm:text-xl"
+          type="button">
+          <img src="https://www.svgrepo.com/show/355037/google.svg" alt="Google" class="w-6 h-6">
+          Sign in with Google
+        </button>
+
+       
+        <div class="flex flex-col sm:flex-row items-center gap-2 mt-2 text-base sm:text-lg">
+          <span class="text-gray-700">Don't have an account?</span>
+          <a href="https://accounts.google.com/lifecycle/steps/signup/name?dsh=S523238185:1753266384178028&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en-gb&ifkv=AdBytiNgM331-jSsrX94AdW1d2Z_k9fbYzUhYiHetWT85juIFn778lO5M0nDEmVOfGBzm_1yMAlU&TL=ALgCv6x_oMtj1bND8Puheua8PbQooTrHrkAwRr3KGboVY-fk5sey4dt4B9DvMD5b&continue=https://accounts.google.com/ManageAccount?nc%3D1"
+            class="text-red hover:underline font-semibold">Sign up for free!</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
